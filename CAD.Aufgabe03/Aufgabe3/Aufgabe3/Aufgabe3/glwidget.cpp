@@ -1,5 +1,5 @@
 #include "glwidget.h"
-#include <QtGui>
+#include <QtGui/QtGui>
 #include <GL/glu.h>
 #include "mainwindow.h"
 #include "bspline.h"
@@ -19,6 +19,7 @@ GLWidget::GLWidget(QWidget *parent) : QGLWidget(parent)
     knots.insertKnot(0.05);
     knots.insertKnot(0.1);
     knots.insertKnot(0.3);
+    knots.insertKnot(0.4);
     knots.insertKnot(0.4);
     knots.insertKnot(0.5);
     knots.insertKnot(0.7);

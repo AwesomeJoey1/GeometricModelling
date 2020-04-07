@@ -1,5 +1,5 @@
 #include "points.h"
-#include <QDebug>
+#include <QtCore/QDebug>
 
 Points::Points()
 {

@@ -1,6 +1,6 @@
-#include <QGlWidget>
+#include <QtOpenGL/QGlWidget>
 #include "glwidget.h"
-#include <QtGui>
+#include <QtGui/QtGui>
 #include <GL/glu.h>
 #include "mainwindow.h"
 #include <vector>

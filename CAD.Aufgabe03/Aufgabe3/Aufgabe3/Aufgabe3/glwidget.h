@@ -1,7 +1,7 @@
 #ifndef GLWIDGET_H
 #define GLWIDGET_H
 
-#include <QGLWidget>
+#include <QtOpenGL/QGLWidget>
 #include "knots.h"
 #include "bspline.h"
 #include "bezier.h"

@@ -1,5 +1,5 @@
 #include "bspline.h"
-#include "qdebug.h"
+#include "QtCore/qdebug.h"
 
 BSpline::BSpline(){}
 

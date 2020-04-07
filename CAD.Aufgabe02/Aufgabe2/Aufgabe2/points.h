@@ -1,7 +1,7 @@
 #ifndef POINTS_H
 #define POINTS_H
-#include <QList>
-#include <QPointF>
+#include <QtCore/QList>
+#include <QtCore/QPointF>
 
 class Points
 {

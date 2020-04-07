@@ -1,6 +1,6 @@
 #include "bezier.h"
 #include <math.h>
-#include <QtGui>
+#include <QtGui/QtGui>
 
 Bezier::Bezier(Points controlPoints, float epsilonIntersection, float epsilonDraw)
 {

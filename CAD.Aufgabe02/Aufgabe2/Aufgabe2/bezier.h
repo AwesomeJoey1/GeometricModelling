@@ -1,5 +1,5 @@
 #pragma once
-#include <QGLWidget>
+#include <QtOpenGL/QGLWidget>
 #include <vector>
 #include "points.h"
 using namespace std;
