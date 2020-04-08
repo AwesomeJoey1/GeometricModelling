@@ -17,7 +17,17 @@ Given a world and view coordinate system, quaternion based transformations are i
 </p>
 The bottom left corner of the cube is set to be the origin. The edge to the right, up and inward direction represent the world axis. This is nicely shown by the fact, that rotating around a world axis leaves the corresponding edge unaltered.
 
-Note that after initialization the world and view coordinate system coincide, which is why the first rotation around world or view look the same. In the video captures of the view around world system and view around view system, the view system is translated equally in x,y,z world direction to clearly show the rotations.
+### Rotating the view around world axis with translated view system
+Note that after initialization the world and view coordinate system coincide, which is why the first rotation around world or view look the same. In the following video captures of the view around world system, the view system is translated equally in x,y,z world direction to clearly show the rotations.
+<p>
+  <img src="media/x_World_trans.gif" width=288px>
+  <img src="media/y_World_trans.gif" width=288px>
+  <img src="media/z_World_trans.gif" width=288px>
+</p>
+
+### Rotating the view around view axis with translated view system
+The difference gets clear when the systems dont't coincide. Again the view system is translated equally in x,y,z world direction for comparison.
+
 
 ## 2. Bezier Curves
 
