@@ -27,6 +27,13 @@ Note that after initialization the world and view coordinate system coincide, wh
 
 ### Rotating the view around view axis with translated view system
 The difference gets clear when the systems dont't coincide. Again the view system is translated equally in x,y,z world direction for comparison.
+<p>
+  <img src="media/x_View_trans.gif" width=288px>
+  <img src="media/y_View_trans.gif" width=288px>
+  <img src="media/z_View_trans.gif" width=288px>
+</p>
+
+The bottem left corner of the yellow cube doesn't represent the origin of both coordinate systems anymore, which is why all edges move when rotating around the view axes.
 
 
 ## 2. Bezier Curves
