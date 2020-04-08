@@ -4,7 +4,9 @@ Lecture tutorial about geometric modelling. Includes Quaternion rotations, inter
 ## 1. Quaternions
 !-> Given a world and view coordinate system, quaternion based transformations are implemented. These include translation of the view coordinate system in drection of the axis of the world coordinate system...,
 
-![Translation](media/GM_translation.gif)
+<p align="center"> 
+  <img src="media/GM_translation.gif">
+</p>
 
 ...rotation of the view coordinate system  the x,y,z-axis of the world coordinate system...,
 
