@@ -26,7 +26,7 @@ Note that after initialization the world and view coordinate system coincide, wh
 </p>
 
 ### Rotating the view around view axis with translated view system
-The difference gets clear when the systems dont't coincide. Again the view system is translated equally in x,y,z world direction for comparison.
+The difference gets clear when the systems don't coincide. Again the view system is translated equally in x,y,z world direction for comparison.
 <p>
   <img src="media/x_View_trans.gif" width=288px>
   <img src="media/y_View_trans.gif" width=288px>
